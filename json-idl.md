@@ -88,7 +88,7 @@ The desired workflow:
 				"package": "org.sevenkingdom.blackcastle",
 				"name": "ActionDTO",
 				"doc": "a command action detail",
-				"meta": {}
+				"meta": {},
 				"properties": [
 					{
 						"name": "...",
