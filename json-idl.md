@@ -1,6 +1,6 @@
 The desired workflow:
 
-1. service owner design API interfaces using their fav language
+1. service owner design API interfaces using their favourite language
 
 	For example, Jon snow is a groovy developer, he now is in duty of writing a `BlackCastle` module, he is planning to add an facade API interface `LordCommanderFacade`.
 
@@ -18,11 +18,11 @@ The desired workflow:
 			/**
 			 * commands someone to do the action, and take the consequence
 			 * @param whom the command target
-			 * @param action the command detail
+			 * @param voiceCommand the command voice
 			 * @returns the action result
 			 * @throws BetrayalException when the target betrayed the commander
 			**/
-			ConsequenceDTO command(string whom, ActionDTO action)
+			ConsequenceDTO command(string whom, ActionDTO<VoiceDTO> voiceCommand)
 
 			...
 
@@ -74,9 +74,12 @@ The desired workflow:
 								"doc": "the command target"
 							},
 							{
-								"name": "action",
+								"name": "voiceCommand",
 								"type": "org.sevenkingdom.blackcastle.ActionDTO",
-								"doc": "the command detail"
+								"typeParams": [
+									"org.sevenkingdom.blackcastle.VoiceDTO"
+								],
+								"doc": "the command voice"
 							}
 						]
 					}
