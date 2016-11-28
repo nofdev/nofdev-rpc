@@ -131,3 +131,19 @@ The desired workflow:
 	```bash
 	npm install --save sevenkingdom-blackcastle
 	```
+
+
+
+## Jobs
+
+### Specific language to Json IDL
+
+- [x] Groovy/Java to Json IDL
+- [ ] C# to json idl
+- [ ] Typescript to Json IDL
+
+### Json IDL to specific language
+
+- [ ] Json IDL to Typescript
+- [ ] Json IDL to Groovy/Java
+- [ ] Json IDL to C#
