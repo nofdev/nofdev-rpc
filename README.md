@@ -10,3 +10,4 @@ All compents for the NoFDev RPC Framework below:
 * [http-client-util](https://github.com/nofdev/http-client-util)
 * [service-logging](https://github.com/nofdev/service-logging)
 * [ng2-jsonrpc-client](https://github.com/nofdev/ng2-jsonrpc-client)
+* [lang2idl](https://github.com/nofdev/lang2idl)
