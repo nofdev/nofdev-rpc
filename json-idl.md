@@ -139,11 +139,11 @@ The desired workflow:
 ### Specific language to Json IDL
 
 - [x] Groovy/Java to Json IDL
-- [ ] C# to json idl
+- [x] C# to json idl
 - [ ] Typescript to Json IDL
 
 ### Json IDL to specific language
 
-- [ ] Json IDL to Typescript
-- [ ] Json IDL to Groovy/Java
-- [ ] Json IDL to C#
+- [x] Json IDL to Typescript
+- [x] Json IDL to Groovy/Java
+- [x] Json IDL to C#
